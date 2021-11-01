@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root{
+  --white: #efefef
+}
+
+html, body, #root{
+  background-color: var(--white);
+  height: 100vh;
+}
