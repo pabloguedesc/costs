@@ -1,9 +1,9 @@
 import { Switch, Route } from "react-router-dom"
 
-import Home from "../pages/Home"
-import Company from "../pages/Company"
-import Contact from "../pages/Contact"
-import NewProject from "../pages/NewProject"
+import Home from "../pages/home/Home"
+import Company from "../pages/company/Company"
+import Contact from "../pages/contact/Contact"
+import NewProject from "../pages/new_project/NewProject"
 
 function Router() {
     return (

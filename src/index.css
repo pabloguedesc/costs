@@ -6,10 +6,13 @@
 }
 
 :root{
-  --white: #efefef
+  --white: #ffffff;
+  --background: #eee5e5;
+  --dark-gray: #1f1e1e;
+  --yellow: #fbbc34
 }
 
 html, body, #root{
-  background-color: var(--white);
+  background-color: var(--background);
   height: 100vh;
 }
