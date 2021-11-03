@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root{
   --white: #ffffff;
-  --background: #eee5e5;
+  --background: #f1efef;
   --dark-gray: #1f1e1e;
+  --gray: #4e4e4e;
   --yellow: #fbbc34
 }
 
