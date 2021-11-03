@@ -11,7 +11,7 @@
     width: 55px;
 }
 .menu{
-    width: 30vw;
+    width: 300px;
     display: flex;
     justify-content: space-between;
 }

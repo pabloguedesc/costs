@@ -13,19 +13,19 @@
 
 .title{
     color: var(--dark-gray);
-    font-size: 42px;
+    font-size: 3rem;
 }
 
 #titleMain{
     display: flex;
     align-items: center;
-    margin-top: -10px;
 }
 
 .subTitle{
     color: var(--gray);
-    font-size: 15px;
+    font-size: 17.5px;
     margin-top: .5rem;
+    margin-bottom: 1.5rem;
 }
 
 #fucusTitile{
@@ -40,6 +40,7 @@
 .btnStart{
     background-color: var(--dark-gray);
     padding: 10px;
+    text-decoration: none;
     cursor: pointer;
     margin-top: 1.5rem;
     border: none;
@@ -55,4 +56,35 @@
 
 .imgCosts {
     width: 400px;
+}
+
+@media screen and (max-width: 998px) {
+    .divMain{
+        display: block;
+        margin: 0 50%;
+        padding: 2rem 0;
+    }
+    #titleMain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btnStart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .main{
+        background-color: yellow;
+    }
+    .imgCosts{
+        width: 300px;
+    }
+    .title{ 
+        font-size: 28px;
+    }
 }
