@@ -12,26 +12,47 @@
 }
 
 .title{
-    color: #E4B981;
-    font-size: 45px;
+    color: var(--dark-gray);
+    font-size: 42px;
 }
 
 #titleMain{
-    color: #5C55C2;
-    margin-top: -1rem;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
 }
 
 .subTitle{
     color: var(--gray);
     font-size: 15px;
+    margin-top: .5rem;
+}
+
+#fucusTitile{
+    background-color: var(--dark-gray);
+    color: var(--yellow);
+    border-radius: 4px;
+    font-size: 36px;
+    padding: 0px 5px;
+    margin-left: 8px;
 }
 
 .btnStart{
-    background-color: none;
-    padding: 5px;
+    background-color: var(--dark-gray);
+    padding: 10px;
+    cursor: pointer;
     margin-top: 1.5rem;
-    border: 2px solid #5C55C2;
-    color: #171535;
-    border-radius: 5px;
+    border: none;
+    color: var(--white);
+    border-radius: 4px;
     font-size: 16px;
+    transition: 0.3s;
+}
+
+.btnStart:hover{
+    color: var(--yellow);
+}
+
+.imgCosts {
+    width: 400px;
 }

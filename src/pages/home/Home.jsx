@@ -1,4 +1,4 @@
-import img from "../../images/img.png"
+import img from "../../images/savings.svg"
 import styles from "./Home.module.css"
 function Home() {
 
@@ -7,11 +7,14 @@ function Home() {
             <div className={styles.divMain}>
                 <div>
                     <h1 className={styles.title}>Seja bem vindo!</h1>
-                    <h1 className={styles.title} id={styles.titleMain}>ao Costs</h1>
-                    <p className={styles.subTitle}>Comece a gerenciar seu dinheiro agora mesmo</p>
+                    <div id={styles.titleMain}>
+                        <h1 className={styles.title}>ao</h1>
+                        <h1 id={styles.fucusTitile}>Costs</h1>
+                    </div>
+                    <p className={styles.subTitle}>Comece a gerenciar seu dinheiro agora mesmo!</p>
                     <button className={styles.btnStart}>Vamos Começar</button>
                 </div>
-                <img src={img} alt="lal" />
+                <img className={styles.imgCosts} src={img} alt="lal" />
             </div>
         </main>
     )
